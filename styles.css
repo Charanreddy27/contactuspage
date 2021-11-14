@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;900&display=swap');
 *{
     padding: 0%;
     margin: 0%;
@@ -67,6 +68,8 @@ header{
     height: 520px;
    margin: auto;
    display: block;
+   position: relative;
+   left: 10%;
   
 }
 #facts{
@@ -89,12 +92,13 @@ header{
 .box-2 h1{
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
-    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
     line-height: 1.167;
     letter-spacing: 0em;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .facts-box h3{
     padding-top: 10px;
@@ -106,6 +110,10 @@ header{
     letter-spacing: 0.00938em;
     text-align: center;
 
+
+}
+.facts-box{
+    text-align: center;
 }
 
 .facts-box span{
@@ -116,6 +124,7 @@ header{
     line-height: 1.5;
     letter-spacing: 0.00938em;
     padding-bottom: 60px;
+    text-align: center;
     
 }
 .section-3{
@@ -651,10 +660,14 @@ nav .icon-burger .line {
     text-align: center;
 }
 .extra-section h1{
-    font-size: 38px;
-    font-weight: 700 ;
+    font-size: 30px;
+    font-weight: 500 ;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 20px;
+}
+.slider{
+    display: none;
 }
 
 /* ___________________________________________________________________________________________________________________________________________
@@ -1166,6 +1179,9 @@ ________________________________________________________________________________
     
         margin: 0 auto;
     }
+    .slider{
+        display: none;
+    }
     
 
     
@@ -1179,11 +1195,14 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________________________________________________________________ */
 @media only screen and (max-width:950px){
-    header{
-        /* color: #fff; */
-        /* background: url('bg1.png */
-        background-color: white;
+    .body{
+        line-height: 0px;
     }
+    .main-sec{
+        background-color: white;
+        height: 90vh;
+    }
+
     .box-1{
         display: block;
         
@@ -1191,6 +1210,7 @@ ________________________________________________________________________________
         margin: 0 auto;
         align-items: center;
         padding: 50px 0px;
+        
         
         
     }
@@ -1237,8 +1257,9 @@ ________________________________________________________________________________
         height: 100%;
     }
     .box-1 .img-1 img{
-        height: 300px;
-        display: none;
+        height: 270px;
+    
+        /* display: none; */
         
     }
 
@@ -1251,6 +1272,8 @@ ________________________________________________________________________________
         margin: 0 auto;
         border-radius: 2rem;
         background-color: rgb(238,239,243);
+        display: none;
+        
     }
     .box-2{
         width: 90%;
@@ -1297,7 +1320,7 @@ ________________________________________________________________________________
         width: 90%;
         margin: 0 auto;
         align-items: center;
-        padding: 50px 0px;
+        padding: 50px 0px 10px;
         
     
     }
@@ -1341,8 +1364,8 @@ ________________________________________________________________________________
     .box-3 .img-3 img{
         display: block;
         margin: 0 auto;
-        height: 290px;
-        padding: 35px 0px 30px;
+        height: 260px;
+        padding: 35px 0px 10px;
 
     }
     
@@ -1390,7 +1413,7 @@ ________________________________________________________________________________
         display: block;
         width: 100%;
         margin: 0 auto;
-        padding: 50px 0px;
+        padding: 5px 0px 30px;
     
     }
     .img-4-alt{
@@ -1399,7 +1422,7 @@ ________________________________________________________________________________
 
     }
     .section-4 .box-4 .content-4 h1{
-        padding-top: 40px;
+        padding-top: 0px;
         color: #444444;
         font-size: 28px;
         font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
@@ -1812,6 +1835,7 @@ ________________________________________________________________________________
     width: 80%;
     margin: 0 auto;
     justify-content: space-around;
+    display: none;
 }
 .extra-box{
     display: block;
@@ -1859,8 +1883,10 @@ ________________________________________________________________________________
          height: 300px;
      }
      .box-1{
-         height: 90vh;
-     }
+        height: 100vh;
+    }
+    
+    
      
  }
  @media screen and (max-width:470px) and (min-width:300px) {
@@ -1870,4 +1896,20 @@ ________________________________________________________________________________
     
     
 }
+@media screen and (max-width:470px) and (min-width:400px) {
+    .section-9{
+        height: 300px;
+    }
+    .box-1{
+        height: 90vh;
+    }
+    
+}
+@media screen and (max-width:400px) and (min-width:300px) {
+   .main-sec{
+       height: 750px;
+   }
+   
+}
+
 
