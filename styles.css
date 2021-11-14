@@ -68,8 +68,8 @@ header{
     height: 520px;
    margin: auto;
    display: block;
-   position: relative;
-   left: 10%;
+   /* position: relative;
+   left: 10%; */
   
 }
 #facts{
@@ -273,7 +273,8 @@ header{
 
 }
 .section-5{
-    background-color: rgb(246,248,247);
+    /* background-color: rgb(246,248,247); */
+    padding-bottom: 20px;
 }
 .box-5{
     display: flex;
@@ -281,41 +282,78 @@ header{
     width: 1100px;
     margin: 0 auto;
 }
-.box-5 .content-5 h1{
-    color: #444444;
-    font-size: 28px;
+.about-sec{
+    display: flex;
+    gap: 1.5em;
+    /* width: 90%; */
+    margin: 0 auto;
+}
+.content-5-flex{
+    border: solid 2px black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    
+}
+.content-5 h1{
+    font-size: 40px;
+    font-weight: 900;
     font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
-    font-weight: 500;
-    line-height: 1.167;
-    letter-spacing: 0em;
-    padding-top: 170px;
-}
-.box-5 .content-5 h4{
-    font-size: 14px;
-    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.00938em;
-    padding: 20px 0px 37px;
-}
-.box-5 .content-5 .button{
-    color: white;
-    background-color: rgb(68,146,76);
-    border-radius: 2rem;
-    padding: 14px 42.5px;
-    font-size: 17px;
-}
-.box-5 .content-5 .button:hover{
-    color: white;
-    cursor: pointer;
+    text-align: center;
+    padding: 50px 0px;
 
 }
-.box-5 .img-5 img{
-    padding-top: 48px;
-    padding-bottom: 50px;
-    height: 500px;
-   margin: auto;
-   display: block;
+
+.content-5-flex h3{
+    box-sizing: border-box;
+    /* margin: 0px 0px 24px; */
+    min-width: 0px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    width: 93%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+.content-5-flex h4{
+    box-sizing: border-box;
+    /* margin: 0px; */
+    min-width: 0px;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    width:93%;
+    margin: auto;
+    
+}
+.flex-h4{
+    margin-top:auto;
+}
+/* .cont-1 h4{
+    padding-top: 130px;
+}
+.cont-3 h4{
+    padding-top: 55px;
+} */
+.content-5-flex .img-5-flex{
+    padding: 15px 0px;
+    text-align: center;
+}
+.content-5-flex img{
+    height: 120px;
+    /* border: solid 1px black; */
+    border-radius: 100%;
+}
+
+.about-sec > *{
+    flex-basis: 100%;
 }
 .img-7-1,
 .img-7-2,
@@ -913,10 +951,10 @@ ________________________________________________________________________________
     .box-5{
         display: flex;
         
-        width: 100%;
+        width: 93%;
         margin: 0 auto;
     }
-    .box-5 .content-5 h1{
+    /* .box-5 .content-5 h1{
         color: #444444;
         font-size: 28px;
         font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
@@ -924,7 +962,7 @@ ________________________________________________________________________________
         line-height: 1.167;
         letter-spacing: 0em;
         padding-top: 170px;
-    }
+    } */
     .box-5 .content-5 h4{
         font-size: 14px;
         font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
@@ -932,6 +970,14 @@ ________________________________________________________________________________
         line-height: 1.5;
         letter-spacing: 0.00938em;
         padding: 20px 0px 37px;
+    }
+    .content-5 h1{
+        font-size: 35px;
+        font-weight: 900;
+        font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+        text-align: center;
+        padding: 50px 0px;
+    
     }
     .box-5 .content-5 .button{
         color: white;
@@ -1479,11 +1525,26 @@ ________________________________________________________________________________
         width: 100%;
         margin: 0 auto;
         padding: 50px 0px;
+    }.about-sec{
+        display: block;
+    }
+    .content-5-flex{
+        width: 340px;
+        margin: 0 auto;
+        /* padding-bottom: 30px; */
+    }
+    .content-5 h1{
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+        text-align: center;
+        padding: 50px 0px;
+    
     }
     .box-5 .content-5{
         text-align: center;
     }
-    .box-5 .content-5 h1{
+    /* .box-5 .content-5 h1{
         color: #444444;
         font-size: 28px;
         font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
@@ -1492,7 +1553,7 @@ ________________________________________________________________________________
         letter-spacing: 0em;
         padding-top: 50px;
         text-align: center;
-    }
+    } */
     .box-5 .content-5 h4{
         font-size: 14px;
         font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
