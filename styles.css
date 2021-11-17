@@ -666,6 +666,7 @@ nav .icon-burger .line {
 }
 .extra-box{
     display: flex;
+    gap: 50px;
 
     margin: 0 auto;
 }
@@ -1959,7 +1960,7 @@ ________________________________________________________________________________
 }
 @media screen and (max-width:470px) and (min-width:400px) {
     .section-9{
-        height: 300px;
+        height: 350px;
     }
     .box-1{
         height: 90vh;
