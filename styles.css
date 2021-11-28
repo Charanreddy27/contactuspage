@@ -179,7 +179,7 @@ header{
     font-weight: 800;
     line-height: 1.167;
     letter-spacing: 0em;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 .box-3 .content-3 h4{
     font-size: 14px;
@@ -361,12 +361,13 @@ header{
     padding-left: 50px;
 }
 .section-7{
-    background: rgb(246,248,247);
+    background: white;
 }
 .box-7{
     
     width: 1100px;
     margin: 0 auto;
+    
 }
 .box-7 .content-7{
     display: flex;
@@ -1004,7 +1005,7 @@ ________________________________________________________________________________
         padding-left: 50px;
     }
     .section-7{
-        background: rgb(246,248,247);
+        background: white;
     }
     .box-7{
         
@@ -1498,7 +1499,7 @@ ________________________________________________________________________________
         text-align: center;
     }
     .content-4-2{
-        display: block;
+        display: flex;
     
     }
     .content-4-2 h3{
@@ -1592,23 +1593,23 @@ ________________________________________________________________________________
         margin: 0 auto;
         padding: 20px 0px 40px;
     }
-    /* .img-7-1,
+    .img-7-1,
     .img-7-2,
     .img-7-3{
-        display: block;
-        margin: 0 auto;
-    } */
-    .img-7-3 img{
-        padding-right: 70px;
+        padding: 0px;
     }
+    /* .img-7-3 img{
+        padding-right: 70px;
+    } */
     .section-7{
-        background: rgb(246,248,247);
+        background: white;
     }
     .box-7{
         
         width: 100%;
         margin: 0 auto;
-        padding: 50px 0px;
+        padding: 20px 0px 0px;
+        text-align: center;
     }
     .box-7 .content-7{
         display: block;
@@ -1625,6 +1626,10 @@ ________________________________________________________________________________
     .img-7-3{
         margin: 0 auto;
     }
+    .content-7-1,
+     .content-7-2{
+         padding-right: 0px;
+     }
     
     .box-7 .content-7 .content-7-1 h3,
     .box-7 .content-7 .content-7-2 h3,
@@ -1660,7 +1665,7 @@ ________________________________________________________________________________
     .btn-learn{
         align-items: center;
         padding-left: 20px;
-        padding-bottom: 75px;
+        padding-bottom: 35px;
     }
     .box-7 h1{
         color: #444444;
@@ -1912,6 +1917,15 @@ ________________________________________________________________________________
 
     margin: 0 auto;
 }
+.box-9 .content-9 h1{
+    text-align: center;
+    padding-left: 0px;
+}
+.box-9 .content-9 p{
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 20px;
+}
 
     
 }
@@ -1973,13 +1987,30 @@ ________________________________________________________________________________
     .box-1{
         height: 90vh;
     }
+    .main-sec{
+        height: 630px;
+    }
     
 }
-@media screen and (max-width:400px) and (min-width:300px) {
+@media screen and (max-width:370px) and (min-width:300px) {
    .main-sec{
        height: 750px;
    }
    
 }
+@media screen and (max-width:370px) and (min-width:330px) {
+    .main-sec{
+        height: 650px;
+    }
+    
+ }
+ @media screen and (max-width:330px)  {
+    .main-sec{
+        height: 690px;
+    }
+    
+ }
+ 
+
 
 
