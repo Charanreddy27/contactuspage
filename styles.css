@@ -428,7 +428,7 @@ header{
     /* background: url('bg1.png'); */
     width: 90%;
     background-size: contain;
-    background-color: black;
+    background-color:blue;
     border-radius: 2rem;
     margin: 0 auto;
 }
@@ -472,15 +472,17 @@ header{
     color: #ffe7ad;
 }
 .box-9 a{
-    color: white;
-    background-color: rgb(68,146,76);
+    color: black;
+    background-color: white;
+    border: solid 0.5px black;
     border-radius: 2rem;
     padding: 16px 42.5px;
     font-size: 17px;
     text-decoration: none;
+    font-weight: 550;
 }
 .box-9 a:hover{
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .content-9{
@@ -1068,7 +1070,7 @@ ________________________________________________________________________________
         color: #fff;
         /* background: url('bg1.png'); */
         background-size: contain;
-        background-color: black;
+        background-color: blue;
         width: 90%;
         margin: 0 auto;
         border-radius: 2rem;
@@ -1095,15 +1097,16 @@ ________________________________________________________________________________
         color: #ffe7ad;
     }
     .box-9 a{
-        color: white;
-        background-color: rgb(68,146,76);
+        color: black;
+        background-color: white;
+        border: solid 0.5px black;
         border-radius: 2rem;
         padding: 16px 42.5px;
         font-size: 17px;
         text-decoration: none;
     }
     .box-9 a:hover{
-        color: white;
+        color: black;
         cursor: pointer;
     }
     .logo {
@@ -1262,7 +1265,7 @@ ________________________________________________________________________________
         
     }
     .box-1 .content-1{
-        text-align: center;
+        text-align: left;
     }
     .box-1 .content-1 h1{
         font-size: 50px;
@@ -1271,7 +1274,7 @@ ________________________________________________________________________________
         font-weight: 900;
         line-height: 1.2;
         letter-spacing: -0.00833em;
-        text-align: center;
+        text-align: left;
     
     }
     .box-1 .content-1 h4{
@@ -1281,7 +1284,7 @@ ________________________________________________________________________________
         line-height: 1.5;
         letter-spacing: 0.00938em;
         /* padding-bottom: 15px; */
-        text-align: center;
+        text-align: left;
     }
     .box-1 .content-1 h1 span{
         color: #ffe7ad;
@@ -1292,7 +1295,7 @@ ________________________________________________________________________________
         border-radius: 2rem;
         padding: 10px 42.5px;
         font-size: 17px;
-        justify-content: center;
+        /* justify-content: center; */
     }
    
     .box-1 .content-1 .button:hover{
@@ -1300,11 +1303,14 @@ ________________________________________________________________________________
         cursor: pointer;
     
     }
-    .box-1 .img-1{
+    /* .box-1 .img-1{
         height: 100%;
-    }
+    } */
     .box-1 .img-1 img{
-        height: 270px;
+        height: 220px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
     
         /* display: none; */
         
@@ -1367,7 +1373,7 @@ ________________________________________________________________________________
         width: 90%;
         margin: 0 auto;
         align-items: center;
-        padding: 50px 0px 10px;
+        padding: 0px 0px 10px;
         
     
     }
@@ -1670,7 +1676,7 @@ ________________________________________________________________________________
         color: #fff;
         /* background: url('bg1.png'); */
         background-size: contain;
-        background-color: black;
+        background-color: blue;
         /* display: block; */
         border-radius: 2rem;
     }
@@ -1685,6 +1691,7 @@ ________________________________________________________________________________
     .last-btn{
         padding-top: 0px;
         text-align: center;
+        
     }
     .last h1{
         padding-top: 10px;
@@ -1710,15 +1717,16 @@ ________________________________________________________________________________
         display: block;
     }
     .box-9 a{
-        color: white;
-        background-color: rgb(68,146,76);
+        color: black;
+        background-color: white;
+        border: solid 0.5px black;
         border-radius: 2rem;
         padding: 16px 42.5px;
         font-size: 17px;
         text-decoration: none;
     }
     .box-9 a:hover{
-        color: white;
+        color: black;
         cursor: pointer;
     }
     .logo {
